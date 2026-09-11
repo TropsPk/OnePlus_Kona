@@ -1,14 +1,17 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
-#               2022 The lineage X Project
+# Copyright (C) 2018-2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_instantnoodlep.mk
+    $(LOCAL_DIR)/instantnoodle/lineage_instantnoodle.mk \
+    $(LOCAL_DIR)/instantnoodlep/lineage_instantnoodlep.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_instantnoodlep-user \
-    derp_instantnoodlep-userdebug \
-    derp_instantnoodlep-eng
+    lineage_instantnoodle-user \
+    lineage_instantnoodle-userdebug \
+    lineage_instantnoodle-eng \
+    lineage_instantnoodlep-user \
+    lineage_instantnoodlep-userdebug \
+    lineage_instantnoodlep-eng
